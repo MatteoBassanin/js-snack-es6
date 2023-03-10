@@ -6,7 +6,7 @@ let bikeArray = [
 
     {
         name : "red",
-        weight : 7,
+        weight : 6,
     },
 
 
@@ -35,9 +35,7 @@ for ( let i = 0; i < bikeArray.length ; i ++){
     if(bikeArray[i].weight < sampleBike){
         lighterBike = bikeArray[i];
         
-
     }
-
 }
 
 
