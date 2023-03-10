@@ -33,7 +33,6 @@ let lighterBike;
 
 for ( let i = 0; i < bikeArray.length ; i ++){
     if(bikeArray[i].weight < sampleBike){
-        sampleBike = bikeArray[i].weight;
         lighterBike = bikeArray[i];
         
 
