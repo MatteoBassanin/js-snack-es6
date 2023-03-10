@@ -1,3 +1,5 @@
+
+
 const classifica = [
     {
         nome : "roma",
@@ -20,18 +22,6 @@ const classifica = [
 ]
 
 console.log(classifica)
-console.log(...classifica)
-
-
-
-
-
-function randomNumberGenerator(min,max){
-    const randomNumber = Math.floor(Math.random()*(max - min + 1))+ min;
-    return randomNumber;
-}
-
-
 
 
 
@@ -43,6 +33,17 @@ for( let i = 0 ; i < classifica.length ; i++){
 }
 
 
+function randomNumberGenerator(min,max){
+    const randomNumber = Math.floor(Math.random()*(max - min + 1))+ min;
+    return randomNumber;
+}
+
+
+
+
+
+
+
 // let nuovaClassifica = classifica.map(({ nome, punti, falli }) => ({ nome, punti ,falli }));
 
 
@@ -50,9 +51,15 @@ for( let i = 0 ; i < classifica.length ; i++){
 // console.log(nuovaClassifica)   
 
 
-const {nome, punti, falli} = classifica; 
 
-console.log(nome, punti, classifica);
+
+
+for (let i = 0 ; i < classifica.length ; i++){
+    const {nome, punti, falli} = classifica[i]; 
+    console.log(nome, punti, falli);
+
+}
+
 
 
 
