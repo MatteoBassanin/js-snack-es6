@@ -6,7 +6,7 @@ let bikeArray = [
 
     {
         name : "red",
-        weight : 6,
+        weight : 7,
     },
 
 

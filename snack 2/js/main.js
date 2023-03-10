@@ -51,6 +51,8 @@ function randomNumberGenerator(min,max){
 // console.log(nuovaClassifica)   
 
 
+console.log(classifica[1].nome)
+
 
 
 
@@ -59,7 +61,6 @@ for (let i = 0 ; i < classifica.length ; i++){
     console.log(nome, punti, falli);
 
 }
-
 
 
 
